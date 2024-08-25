@@ -5,11 +5,11 @@ const nextConfig = {
     compiler: {
         styledComponents: true,
     },
-    i18n: {
-        locales: ['ru', 'uz'],
-        defaultLocale: 'ru',
-        localeDetection: false,
-    },
+    // i18n: {
+    //     locales: ['ru', 'uz'],
+    //     defaultLocale: 'ru',
+    //     localeDetection: false,
+    // },
 }
 
 module.exports = nextConfig
