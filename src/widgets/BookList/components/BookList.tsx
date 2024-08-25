@@ -64,7 +64,7 @@ export const BookList = (props: Props) => {
         router.reload();
         // router.push('/')
     }
-
+    
 
     const loaders = () => <>
         Loading...

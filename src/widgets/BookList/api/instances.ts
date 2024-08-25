@@ -1,11 +1,7 @@
 import axios from 'axios';
 
-import getConfig from "next/config";
-
-const {publicRuntimeConfig} = getConfig();
-
 export const $instances = axios.create({
-    baseURL: publicRuntimeConfig.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000',
+    baseURL: process.env.NEXT_PUBLIC_DOMAIN,
 });
 
 $instances.interceptors.request.use(async (config) => {

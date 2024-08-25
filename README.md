@@ -2,6 +2,7 @@
 
 Тестовое задание для Frontend-разработчика
 
+[Visit Demo Site](https://bogoda-tz.vercel.app/)
 
 ## Getting Started
 
